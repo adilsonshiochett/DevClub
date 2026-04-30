@@ -1,0 +1,38 @@
+.box {
+
+    background-color: #d44844;
+    /*define a cor de fundo da caixa*/
+    width: 200px;
+    /*define a largura da caixa*/
+    height: 200px;
+    /*define a altura da caixa*/
+    border: 2px solid #ce2020;
+    /*define a borda da caixa, com uma largura de 2px e cor preta*/
+    box-sizing: border-box;
+    /*inclui a borda e o preenchimento no cálculo do tamanho total da caixa*/
+    text-align: center;
+    /*alinha o texto ao centro da caixa*/
+    line-height: 75px;
+    /*define a altura da linha para centralizar verticalmente o texto dentro da caixa*/
+    border-radius: 10px;
+    /*arredonda os cantos da caixa com um raio de 10px*/
+    border-color: #970ee6;
+    /*define a cor da borda da caixa como #10d65c*/
+    padding: 50px 50px 50px 50px;
+    /*define o preenchimento interno da caixa, com 20px de espaço em todos os lados*/
+    margin: 50px 50px 50px 50px;
+    /*define a margem externa da caixa, com 50px de espaço em todos os lados*/
+    font-size: 40px;
+    /*define o tamanho da fonte do texto dentro da caixa*/
+    font-weight: bold;
+    /*define a espessura da fonte do texto dentro da caixa como negrito*/
+    color: rgb(188, 7, 243);
+    text-shadow: #970ee6 10px 10px 10px;
+    /*adiciona uma sombra ao texto dentro da caixa, com um deslocamento de 10px para a direita, 10px para baixo e um desfoque de 10px, usando a cor #970ee6*/
+    box-shadow: #970ee6 10px 10px 10px;
+    /*adiciona uma sombra à caixa, com um deslocamento de 10px para a direita, 10px para baixo e um desfoque de 10px, usando a cor #970ee6*/
+
+
+
+
+}

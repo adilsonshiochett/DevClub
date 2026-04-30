@@ -1,0 +1,31 @@
+p {
+    color: #df4545;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 20px;
+    text-align:center;
+    text-shadow: 5px 5px 5ch rgba(221, 3, 3, 0.781);
+}
+
+
+ul {
+    color: #df4545;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    margin-top: 20px;
+    text-align:left;
+    text-shadow: 5px 5px 5ch rgba(221, 3, 3, 0.781);
+}
+
+
+h3 {
+    color: #df4545;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: 30px;
+    text-align:center;
+    text-shadow: 5px 5px 5ch rgba(221, 3, 3, 0.781);
+}
