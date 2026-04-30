@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+
+
+
+
+
+.section-left {
+    width: 60%;
+    padding: 136px;
+
+
+    display: inline-block;
+
+}
+
+h1 {
+    margin-top: 300px;
+    font-size: 70px;
+    margin-bottom: 50px;
+    line-height: 80px;
+    letter-spacing: 0;
+    color: #5D5D7D;
+    margin-left: 30px;
+    text-align: center;
+
+}
+
+p {
+    margin-bottom: 50px;
+
+
+    font-size: 28px;
+    margin-left: 30px;
+    line-height: 48px;
+    color: #5D5D7D;
+    text-align: center;
+
+}
+
+
+button {
+    background-color: #9499EA;
+    height: 40px;
+    width: 170px;
+    font-size: 24px;
+    margin-left: 190px;
+    line-height: 100%;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 15px;
+    margin-top: 40px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+.section-right {
+    width: 40%px;
+    height: 100vh;
+    display: inline-block;
+    background-color: rgba(93, 93, 125, 0.16);
+    position: absolute;
+    font-size: 28px;
+    line-height: 100%;
+    font-weight: 400px;
+    color: rgba(93, 93, 125, 1);
+
+
+
+}
+
+img {
+    position: relative;
+    top: 25%;
+    right: 130px;
+
+}
+
+header {
+    margin: 25px 20px;
+    word-spacing: 20px;
+}
+
+header a {
+    cursor: pointer;
+
+}
+
+header a:nth-last-child(2) {
+    color: #9499EA;
+}
+
+button:hover {
+
+    opacity: 0.5;
+
+}
+
+button:active {
+
+    opacity: 0.8;
+
+
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .section-left {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        height: 50%;
+        display: block
+        
+    }
+
+
+
+.section-right {
+    width: 100%px;
+    height: auto;
+    display: block;
+    position: static;
+    padding: 40px;
+
+}
+
+img {
+    position: static;
+    max-width: 90%;
+
+}
+
+header {
+    display: none;
+
+
+}
+h1{
+font-size: 36px;
+line-height: 52px;
+width: auto;
+margin: 58px 50px 0 50px;
+text-align: center;
+
+}
+p{
+margin: 15px 40px;
+width: auto;
+text-align: center;
+font-size: 14px;
+line-height: 24px;
+
+}
+
+button{
+margin:0 auto;
+display: block;
+
+
+
+
+
+}
+
+
+
+
+
+}
+
+
+
+
+}
