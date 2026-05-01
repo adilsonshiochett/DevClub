@@ -3,27 +3,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Oswald", sans-serif;
-
-
 }
 
 .container {
     width: 100vw;
     height: 100vh;
-
 }
-
-
-
-
-
-
 
 .section-left {
     width: 60%;
     padding: 136px;
-
-
     display: inline-block;
 
 }
@@ -42,8 +31,6 @@ h1 {
 
 p {
     margin-bottom: 50px;
-
-
     font-size: 28px;
     margin-left: 30px;
     line-height: 48px;
@@ -51,7 +38,6 @@ p {
     text-align: center;
 
 }
-
 
 button {
     background-color: #9499EA;
@@ -89,7 +75,6 @@ img {
     position: relative;
     top: 25%;
     right: 130px;
-
 }
 
 header {
@@ -115,9 +100,6 @@ button:hover {
 button:active {
 
     opacity: 0.8;
-
-
-
 }
 
 @media screen and (max-width: 900px) {
@@ -128,64 +110,57 @@ button:active {
         margin: 0px;
         height: 50%;
         display: block
-        
+    }
+
+    .section-right {
+        width: 100%px;
+        height: auto;
+        display: block;
+        position: static;
+        padding: 40px;
+
+    }
+
+    img {
+        position: static;
+        max-width: 90%;
+
+    }
+
+    header {
+        display: none;
+    }
+
+    h1 {
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+
+    }
+
+    p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+
+    }
+
+    button {
+        margin: 0 auto;
+        display: block;
+
+
+
+
+
     }
 
 
 
-.section-right {
-    width: 100%px;
-    height: auto;
-    display: block;
-    position: static;
-    padding: 40px;
-
-}
-
-img {
-    position: static;
-    max-width: 90%;
-
-}
-
-header {
-    display: none;
 
 
 }
-h1{
-font-size: 36px;
-line-height: 52px;
-width: auto;
-margin: 58px 50px 0 50px;
-text-align: center;
-
-}
-p{
-margin: 15px 40px;
-width: auto;
-text-align: center;
-font-size: 14px;
-line-height: 24px;
-
-}
-
-button{
-margin:0 auto;
-display: block;
-
-
-
-
-
-}
-
-
-
-
-
-}
-
-
-
-
